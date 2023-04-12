@@ -11,6 +11,7 @@
 		A21B474529E72CF10006B91F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21B474429E72CF10006B91F /* ContentView.swift */; };
 		A21B474729E72CF80006B91F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A21B474629E72CF80006B91F /* Assets.xcassets */; };
 		A21B474A29E72CF80006B91F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A21B474929E72CF80006B91F /* Preview Assets.xcassets */; };
+		A21B475129E72D220006B91F /* stateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21B475029E72D220006B91F /* stateView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		A21B474429E72CF10006B91F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A21B474629E72CF80006B91F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A21B474929E72CF80006B91F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A21B475029E72D220006B91F /* stateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stateView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				A21B474229E72CF10006B91F /* stateToObservedApp.swift */,
 				A21B474429E72CF10006B91F /* ContentView.swift */,
+				A21B475029E72D220006B91F /* stateView.swift */,
 				A21B474629E72CF80006B91F /* Assets.xcassets */,
 				A21B474829E72CF80006B91F /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A21B475129E72D220006B91F /* stateView.swift in Sources */,
 				A21B474529E72CF10006B91F /* ContentView.swift in Sources */,
 				A21B474329E72CF10006B91F /* stateToObservedApp.swift in Sources */,
 			);
